@@ -1,0 +1,244 @@
+.contacts-main {
+    margin-top: 93px;
+    margin-left: 345px;
+    gap: 235px;
+}
+
+.contacts-menu {
+    width: 267px;
+}
+
+.contacts-menu-item {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    color: #9A9CA5;
+    cursor: pointer;
+}
+
+.contacts-menu-item:last-child {
+    margin-bottom: 0;
+}
+
+.contacts-menu .menu-item__active {
+    color: #17696A;
+}
+
+
+.contacts-content-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1E212C;
+}
+
+.contacts-content-info {
+    margin-top: 32px;
+}
+
+.contacts-content-info div {
+    margin-bottom: 12px;
+    padding-left: 28px;
+    background-position: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
+}
+
+.contacts-content-info div:last-child {
+    margin-bottom: 0;
+}
+
+.contacts-content-phone {
+    background: url("/public/images/phone.png") no-repeat;
+}
+
+.contacts-content-email {
+    background: url("/public/images/email.png") no-repeat;
+}
+
+.contacts-content-messenger {
+    background: url("/public/images/messenger.png") no-repeat;
+}
+
+.contacts-content-tweet {
+    background: url("/public/images/twitter.png") no-repeat;
+}
+
+.contacts-content-fm {
+    margin-top: 60px;
+}
+
+.contacts-content-fm label {
+    display: block;
+}
+
+.contacts-input-box {
+    margin-top: 32px;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 24px;
+}
+
+.contacts-input-bl label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
+}
+
+.contacts-input-bl input {
+    display: block;
+    width: 390px;
+    margin-top: 8px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 16px;
+    background: #FFFFFF;
+    border: 1px solid #D7DADD;
+    border-radius: 4px;
+    outline: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #9A9CA5;
+}
+
+.contacts-input-bl input::placeholder {
+    color: #9A9CA5;
+}
+
+.contacts-msg-bl {
+    margin-top: 24px;
+}
+
+.contacts-msg-bl textarea {
+    width: 810px;
+    height: 130px;
+    margin-top: 8px;
+    padding-top: 13px;
+    padding-left: 16px;
+    background: #FFFFFF;
+    border: 1px solid #D7DADD;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #9A9CA5;
+}
+
+.contacts-msg-bl textarea::placeholder {
+    color: #9A9CA5;
+}
+
+.contacts-content-fm button {
+    display: block;
+    width: 186px;
+    height: 52px;
+    margin-top: 48px;
+    background: #17696A;
+    border: 1px solid #17696A;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 52px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.contacts-content-box {
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 48px;
+}
+
+.contacts-content-item {
+    padding-bottom: 32px;
+    border: 1px solid #E5E8ED;
+    border-radius: 4px;
+    box-shadow: 10px 10px 51px 0px rgba(0,0,0,0.75);
+}
+
+.contacts-content-item .content-item-location {
+    margin-top: 24px;
+    margin-left: 24px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    color: #1E212C;
+}
+
+.contacts-content-item .content-item-phone,
+.contacts-content-item .content-item-email,
+.contacts-content-item .content-item-time {
+    margin-top: 24px;
+    margin-left: 24px;
+    padding-left: 28px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551
+}
+
+.contacts-content-item .content-item-phone {
+    background: url("/public/images/phone.png") no-repeat;
+    background-position: 0;
+}
+
+.contacts-content-item .content-item-email {
+    background: url("/public/images/email.png") no-repeat;
+    background-position: 0;
+}
+
+.contacts-content-item .content-item-time {
+    background: url("/public/images/clock.png") no-repeat;
+    background-position: 0;
+}
+
+.contacts-content-item .content-item-address {
+    margin-top: 24px;
+    margin-left: 24px;
+    padding-left: 28px;
+    background-position: 0;
+    background: url("/public/images/address.png") no-repeat;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    text-decoration-line: underline;
+    color: #17696A;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom:  1px solid #E5E8ED;
+}
+
+.faq-item:last-child {
+    margin-bottom: 0;
+}
+
+.faq-question-wr {
+    gap: 49px;
+}
+
+.faq-question {
+    width: 720px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1E212C;
+}
+
+.faq-answer {
+    width: 770px;
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #787A80;
+}
+

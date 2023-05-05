@@ -1,0 +1,186 @@
+.track {
+    margin-top: 85px;
+    margin-left: 345px;
+    margin-right: 345px;
+    margin-bottom: 180px;
+    gap: 135px;
+}
+
+.track-title {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    color: #1E212C;
+}
+
+.track-subtitle {
+    width: 390px;
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #787A80;
+}
+
+.track-fm {
+    margin-top: 32px;
+}
+
+.track-fm label {
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
+}
+
+.track-fm .input-bl {
+    margin-top: 8px;
+}
+
+.track-fm .input-bl input {
+    display: block;
+    width: 258px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 16px;
+    border: 1px solid #D7DADD;
+    outline: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
+}
+
+.track-fm .input-bl input::placeholder {
+    color: #424551;
+}
+
+.track-fm .input-bl button {
+    display: block;
+    width: 132px;
+    background: #17696A;
+    border: 1px solid #17696A;
+    border-radius: 0px 4px 4px 0px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 52px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.track-result {
+    margin-top: 48px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 24px;
+    padding-right: 52px;
+    border: 1px solid #E5E8ED;
+    box-shadow: 10px 10px 33px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 4px;
+}
+
+.track-result-item {
+    margin-bottom: 8px;
+    gap: 25px;
+}
+
+.track-result-item div:first-child {
+    width: 107px;
+}
+
+.track-result-item:last-child {
+    margin-bottom: 0;
+}
+
+.track-result-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
+}
+
+.track-result-info {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #787A80;
+}
+
+.track-fm .check-bl {
+    margin-top: 40px;
+    gap: 12px;
+}
+
+.track-fm .check-bl input {
+    display: block;
+    width: 16px;
+    height: 16px;
+}
+
+.track-about-wr {
+    gap: 32px;
+}
+
+.track-about-line {
+    margin-top: 89px;
+}
+
+table {    
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table tr {
+    display: block;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E5E8ED;
+}
+
+thead th {
+    text-align: left;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #1E212C;
+}
+
+thead th,
+tbody td {
+    padding-left: 30px;
+}
+
+thead th:first-child,
+tbody td:first-child {
+    padding-left: 0;
+}
+
+thead th:nth-child(1),
+thead th:nth-child(2),
+tbody td:nth-child(1),
+tbody td:nth-child(2) {
+    width: 204px;
+}
+
+thead th:nth-child(3),
+tbody td:nth-child(3) {
+    width: 145px;
+}
+
+thead th:nth-child(4),
+tbody td:nth-child(4) {
+    width: 87px;
+}
+
+tbody td {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
+}
+
+.td__unactive {
+    color: #9A9CA5;
+}
