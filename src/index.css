@@ -28,3 +28,11 @@ body {
 .align-center {
   align-items: center;
 }
+
+.disabled {
+  opacity: 0.4;
+}
+
+.enabled {
+  opacity: 1;
+}

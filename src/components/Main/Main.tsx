@@ -5,6 +5,7 @@ import Contacts from '../../pages/Contacts'
 import Blog from '../../pages/Blog'
 import TrackOrder from '../../pages/TrackOrder'
 import Women from '../../pages/Women'
+import SingleProduct from '../SingleProduct/SingleProduct'
 
 type MainProps = {
     handleCartCount: () => void
@@ -32,6 +33,10 @@ const Main = ({handleCartCount}:MainProps) => {
             <Route
                 path='women'
                 element={<Women handleCartCount={handleCartCount}/>}            
+            />
+            <Route
+                path='single-product'
+                element={<SingleProduct handleCartCount={handleCartCount}/>}            
             />
         </Routes>
     )

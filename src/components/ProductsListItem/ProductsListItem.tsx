@@ -56,7 +56,10 @@ const ProductsListItem = ({ image, title, price, isLiked = false, rating = 0, ol
                 <div className="products-item-liked"><img src={!isLiked ? "images/wishlist.png" : ""} alt="wishlist" /></div>
             </div>
             <div className="products-item-title">{title}</div>
-            <div className="products-item-price">${price} <span className={oldPrice > 0 ? "products-item-old" : "d-n"}>${oldPrice}</span></div>
+            <div className="products-item-price">
+                ${Number.parseFloat(price.toString()).toFixed(2)} &nbsp; 
+                <span className={oldPrice > 0 ? "products-item-old" : "d-n"}>${Number.parseFloat(oldPrice.toString()).toFixed(2)}</span>
+            </div>
             <button className='products-item-btn' onClick={()=>handleCartCount()}>Add to cart</button>
         </div>
     )

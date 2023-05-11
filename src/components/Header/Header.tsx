@@ -42,7 +42,7 @@ const Header = ({ cartCount }: HeaderProps) => {
                 <div className="header-info-available">Available 24/7 at <span>(405) 555-0128</span></div>
                 <nav>
                     <ul className="header-nav-list d-f align-center">
-                        <li className="nav-list-item"><a href="">Delivery & returns</a></li>
+                        <li className="nav-list-item"><Link to="single-product">Delivery & returns</Link></li>
                         <li className="nav-list-item"><Link to="track-order">Track order</Link></li>
                         <li className="nav-list-item"><Link to="blog">Blog</Link></li>
                         <li className="nav-list-item"><Link to="contacts">Contacts</Link></li>
